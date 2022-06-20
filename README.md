@@ -92,6 +92,7 @@ So we can use `Get-Help` without any errors.
 
 ## Important commands
 
+```PowerShell
 Get-Help
 
 Get-Member
@@ -103,6 +104,7 @@ Get-Command Get-*
 Get-Command Set-*
 
 Get-Command *-Computer
+```
 
 ## Also add these to our profile
 
