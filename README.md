@@ -12,6 +12,8 @@ When we are on Windows we don't need to install anything to get it started.
 Just search for/type `ISE` into the Start menu to find `Windows PowerShell ISE`.
 ISE stands for Integrated Scripting Environment
 
+![image](https://user-images.githubusercontent.com/10754765/174759850-97ef421f-452c-42a1-910d-027c84bd54d4.png)
+
 ISE is perfectly enough!
 
 ## Profile file
