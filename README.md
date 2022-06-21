@@ -2,6 +2,8 @@
 
 Tips and tricks for when we don't have local admin rights 
 
+![image](https://user-images.githubusercontent.com/10754765/174748062-d4310117-eca8-4bc4-bd2e-2ba1aea7f7de.png)
+
 > First presented at [PowerShell Conference Europe 2022](https://psconf.eu)
 
 ## Opening PowerShell
@@ -120,4 +122,4 @@ Influenced by **Mike F Robbins**
 
 [PowerShell 101: The No-Nonsense Beginner’s Guide to PowerShell](https://github.com/mikefrobbins/Presentations/blob/main/PowerShell%20on%20the%20River%202019/PowerShell%20101/PowerShell%20101.ps1)
 
-And also by **Chrissy LeMaire**'s [Tweet]](https://twitter.com/cl/status/1446446992633237508)
+And also by **Chrissy LeMaire**'s [Tweet](https://twitter.com/cl/status/1446446992633237508)
