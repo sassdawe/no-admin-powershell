@@ -57,6 +57,8 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 
 ```
 
+> **NOTE** the use of `-Scope CurrentUser`
+
 ## Error message color
 
 As others have already said it, color red is bad, so let's use something nicer 
@@ -82,7 +84,10 @@ Install-Module QRCodeGenerator
 
 Install-Module QRCodeGenerator -Scope CurrentUser
 
+New-QRCodeURI https://github.com/sassdawe/no-admin-powershell -Show 
 ```
+
+> **NOTE** the use of `-Scope CurrentUser`
 
 ## Help system
 
