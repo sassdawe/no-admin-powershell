@@ -1,6 +1,6 @@
 # no-admin-powershell
 
-Tips and tricks for when we don't have local admin rights 
+## Tips and tricks for when we don't have local admin rights 
 
 ![image](https://user-images.githubusercontent.com/10754765/174748062-d4310117-eca8-4bc4-bd2e-2ba1aea7f7de.png)
 
@@ -15,6 +15,12 @@ ISE stands for Integrated Scripting Environment
 ![image](https://user-images.githubusercontent.com/10754765/174759850-97ef421f-452c-42a1-910d-027c84bd54d4.png)
 
 ISE is perfectly enough!
+
+## Protect our bacon!
+
+When we experiment in `ISE` we could run stuff accidentally and that could be bad. 
+
+Solution: add `throw 'no no'` to the first line 
 
 ## Profile file
 
@@ -116,6 +122,13 @@ Get-Command *-Computer
 $ProgressPreference = 'SilentlyContinue'
 $PSDefaultParameterValues["Install-Module:Scope"] = "CurrentUser"
 ```
+
+## TO-DO: Add more stuff
+
+Add more things later.
+
+Feel free to submit pull request with your goodies!
+
 ## Credit
 
 Influenced by **Mike F Robbins**
