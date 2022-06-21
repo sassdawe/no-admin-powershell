@@ -9,7 +9,7 @@ Tips and tricks for when we don't have local admin rights
 ## Opening PowerShell
 
 When we are on Windows we don't need to install anything to get it started.
-Just search for ISE in the Start menu to show find `Windows PowerShell ISE`.
+Just search for/type `ISE` into the Start menu to find `Windows PowerShell ISE`.
 ISE stands for Integrated Scripting Environment
 
 ISE is perfectly enough!
