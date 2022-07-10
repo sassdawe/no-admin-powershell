@@ -14,17 +14,32 @@ ISE stands for Integrated Scripting Environment
 
 ![image](https://user-images.githubusercontent.com/10754765/174759850-97ef421f-452c-42a1-910d-027c84bd54d4.png)
 
-ISE is perfectly enough!
+**ISE is perfectly enough!**
 
-## Protect our bacon!
+## Protect ourselves!
 
 When we experiment in `ISE` we could run stuff accidentally and that could be bad. 
 
-Solution: add `throw 'no no'` to the first line 
+`ISE` has two really great buttons:
+
+- Run Script (shortcut `F5`)
+- Run Selection, or current line (shortcut `F8`)
+
+![image](https://user-images.githubusercontent.com/10754765/178137112-b439422c-7ec3-484e-806a-1d66c78c826f.png)
+
+Time to time we will end up with lots of things in our file, and accidentally executing everything could be bad.
+
+**Solution:** add `throw 'no no'` to the first line and by doing this the current script cannot be executed anymore as a whole:
+
+![image](https://user-images.githubusercontent.com/10754765/178137247-0f6f9138-e72a-4d47-ac14-b9823ce791ee.png)
 
 ## Profile file
 
-The `$profile` file will get executed every time when we start PowerShell, so this is where we can constomize our experience. (But it does not exists by default)
+The **Profile file** is really great because it enables us to customize our PowerShell console in a persistent way. 
+
+> **Note:** Most things we can do in PowerShell will be related to the current process, the current PowerShell session. When we close the window they will get lost. So to get persist things we can use the profile file.  
+
+The `$profile` file will get executed every time when we start PowerShell, so this is where we can store our 'things'. (But this file does not exists by default, so we need to create it.)
 
 ```PowerShell
 Write-Host $profile
