@@ -2,7 +2,7 @@
 
 Howdy 👋
 
-If you are reading this, I assume might have/had some conserns related to the uncontrolled usage of PowerShell in your environment.
+If you are reading this, I assume you might have/had some conserns related to the uncontrolled usage of PowerShell in your environment.
 
 Especially because threat actors have been using PowerShell to deliver their attacks. 
 
