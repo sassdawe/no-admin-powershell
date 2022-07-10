@@ -1,5 +1,7 @@
 # no-admin-powershell
 
+> Security people read this first: [For-Security-People](./For-Security-People.md)
+
 ## Tips and tricks for when we don't have local admin rights 
 
 ![image](https://user-images.githubusercontent.com/10754765/174748062-d4310117-eca8-4bc4-bd2e-2ba1aea7f7de.png)
